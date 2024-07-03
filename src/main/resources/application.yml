@@ -6,10 +6,9 @@ server:
   port: 8080
 
 bot:
-  #  name: ${BOT_NAME}
-  #  token: ${BOT_TOKEN}
-  name: MyFirstSpringDemo_bot
-  token: 7197862705:AAEZkL23uTIMc3mf-7nukwiqxz53ef4Xsz4
+    name: ${BOT_NAME}
+    token: ${BOT_TOKEN}
+
 
 restclientmiddle:
   #  url: ${MIDDLE_SERVICE_URL}
