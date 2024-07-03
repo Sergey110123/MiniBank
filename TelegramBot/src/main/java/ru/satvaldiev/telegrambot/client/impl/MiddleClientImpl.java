@@ -57,7 +57,7 @@ public class MiddleClientImpl implements MiddleClient {
     public Response transfer(Update update) {
         Message message = update.getMessage();
         String command = message.getText();
-        String correctSpaces = command.trim().replaceAll("\s", " ");
+        String correctSpaces = command.trim().replaceAll("\\s+", " ");
         String[] splitCommand = correctSpaces.split(" ");
 
         if (splitCommand.length != 3) {
