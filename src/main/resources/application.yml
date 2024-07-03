@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Minibank
+
+server:
+  port: 8080
+
+bot:
+  #  name: ${BOT_NAME}
+  #  token: ${BOT_TOKEN}
+  name: MyFirstSpringDemo_bot
+  token: 7197862705:AAEZkL23uTIMc3mf-7nukwiqxz53ef4Xsz4
+
+restclientmiddle:
+  #  url: ${MIDDLE_SERVICE_URL}
+  url: http://158.160.13.4:8082
+
+restclient:
+  #  url: ${MIDDLE_SERVICE_URL}
+  url: http://localhost:8080
+
+
